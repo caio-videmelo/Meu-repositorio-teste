@@ -119,3 +119,9 @@ A média das notas é: 8.50
 
 ## Prints de execução:
 
+![Python-Challenge-Concatenar](https://github.com/user-attachments/assets/ddd93ce3-08b1-478c-8f3d-9aff1d4e9e91)
+![Python-Challenge-Repetir](https://github.com/user-attachments/assets/7cd90e1b-4c02-4873-a074-e45eadd482f9)
+![Python-Challenge-Calcular](https://github.com/user-attachments/assets/272140d5-b956-4026-9995-599d525ca2cc)
+![Python-Challenge-Verificar](https://github.com/user-attachments/assets/e6333d76-d341-4b1a-98d7-10913edce57f)
+![Python-Challenge-Media](https://github.com/user-attachments/assets/af23f98b-9ae4-4a78-a56d-66474ac55fdc)
+![Python-Challenge-Palindromo](https://github.com/user-attachments/assets/384a1738-6521-4e5f-8a6c-1881967b3c87)
