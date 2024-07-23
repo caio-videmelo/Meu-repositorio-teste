@@ -1,79 +1,121 @@
-# Python Challenge
-Challenge proposed by DIO.me
+# Desafio Python
+Este repositório contém diversos scripts Python que demonstram operações básicas de manipulação de strings, cálculos matemáticos, e verificação de características de palavras. Abaixo está a descrição de cada script incluído neste repositório.
 
-## 1 - Concatenando Dados 🐾
+## Scripts
 
-Descrição:
-Vamos receber dois dados diferentes do usuário e concatena-los em uma única string?! 
+### 1. Repetindo Textos ✏️
 
-O que aprenderemos?
+### Descrição: 
 
-* Manipulação de Strings (string)
-* Concatenação
-* Entrada de dados
-* Utilização eficiente do Github Copilot
+Este script (repeat_texts.py) solicita ao usuário uma string e um número inteiro. Em seguida, ele imprime a string repetida o número de vezes informado pelo usuário.
 
-<br>
+### Como usar:
 
-## 2 - Repetindo Textos ✏️
+Execute o script.
+Digite a string desejada.
+Digite um número inteiro para indicar quantas vezes a string deve ser repetida.
 
-Descrição:
-Agora vamos solicitar uma string e um número inteiro como entrada. Depois teremos que retornar a string repetida o número de vezes informado. 
+### Exemplo de uso:
 
-O que aprenderemos?
+``bash
+Digite uma string: Python
+Digite um número inteiro: 3
+Python Python Python 
+``
 
-* Manipulação de Strings (string)
-* Números Inteiros (int)
-* Múltiplas repetições
-* Entrada de dados
-* Aproveitar as sugestões do Github Copilot
+## 2 - Operações Matemáticas Simples 📐
 
-<br>
+### Descrição:
 
-## 3 - Operações Matemáticas Simples 📐
+Este script (simple_calculus.py) realiza operações matemáticas básicas entre dois números inteiros fornecidos pelo usuário. O usuário deve escolher a operação desejada entre adição, subtração, multiplicação e divisão.
 
-Descrição:
-Vamos solicitar como entrada dois números e depois vamos realizar uma operação simples entre eles.
+### Como usar:
 
-O que aprenderemos?
+Execute o script.
+Digite dois números inteiros.
+Escolha a operação desejada (+, -, *, /).
 
-* Operações Matemáticas Básicas
-* Entrada de dados
-* Utilização eficiente do Github Copilot
+### Exemplo de uso:
+``bash
+Digite um número inteiro: 10
+Digite um número inteiro: 5
+Digite a operação que deseja realizar (+, -, *, /): +
+O resultado da operação é: 15
+``
 
-<br>
+## 3 - Concatenar 🧮
 
-## 4 - Verificando Números Pares e Ímpares 🧮
+### Descrição:
+Este script solicita ao usuário duas entradas de texto e as concatena, separadas por um espaço. O resultado é impresso na tela.
 
-Descrição: Como entrada, receba um número inteiro e verifique se ele é par ou ímpar. 
-Uma dica é: Utilize condicionais para realizar a verificação e, se possível, faça uso do Github Copilot(ou outra IA) para otimizar a estrutura do código.
+### Como usar:
 
-O que aprenderemos?
-* Utilização de condicionais em Python (if, else) para realizar verificações.
-* Introdução ao conceito de operador de módulo (%) para verificar se um número é par ou ímpar.
-* Exploração do uso de uma ferramenta de IA, como o Github Copilot, para otimizar a estrutura do código.
+Execute o script.
+Digite a primeira informação.
+Digite a segunda informação.
 
+### Exemplo de uso:
 
-<br>
+``bash
+Digite a primeira informação: Olá
+Digite a segunda informação: Mundo
+As informações concatenadas são Olá Mundo
+``
 
-## 5 - Calculando Média de Notas 📚
+## 4 - Verificando se números são pares ou ímpares
 
-Descrição: Agora vamos calcular a média de três notas fornecidas na entrada do usuário. 
-Uma dica é: Utilize operadores aritméticos para realizar o cálculo da média.
+### Descrição:
 
-O que aprenderemos?
-* Uso de variáveis para armazenar dados fornecidos pelo usuário.
-* Aplicação de operadores aritméticos (+, /) para calcular a média de um conjunto de valores.
-* Prática na solicitação e manipulação de entrada do usuário.
+Este script verifica se um número fornecido pelo usuário é par ou ímpar.
 
-<br>
+### Como usar:
 
-## 6 - Verificando Palíndromos 🔄
+Execute o script.
+Digite um número inteiro.
 
-Descrição: Vamos testar se uma palavra é um palíndromo?! 
-Uma dica é: Utilize conceitos de manipulação de strings para inverter a palavra e comparar com a original.
+### Exemplo de uso:
 
-O que aprenderemos?
-* Manipulação de strings em Python, especialmente invertendo uma string.
-* Compreensão de como comparar a string original com sua versão invertida para determinar se é um palíndromo.
-* Introdução ao conceito de palíndromos e sua aplicação em problemas de programação.
+``bash
+Digite um número inteiro: 4
+O número 4 é par.
+``
+
+## 5 - Verificando Palíndromos 🔄
+
+### Descrição: 
+
+Este script verifica se uma palavra ou frase é um palíndromo, ou seja, se pode ser lida da mesma forma de frente para trás e de trás para frente.
+
+### Como usar:
+
+Execute o script.
+Digite uma palavra ou frase.
+
+### Exemplo de uso:
+
+``bash
+Digite uma palavra ou frase: radar
+"Radar" é um palíndromo.
+``
+## 6 - Calculando média de notas
+
+### Descrição:
+
+Este script calcula a média de três notas fornecidas pelo usuário.
+
+### Como usar:
+
+Execute o script.
+Digite três notas.
+
+### Exemplo de uso:
+
+``bash
+Digite a primeira nota: 7.5
+Digite a segunda nota: 8.0
+Digite a terceira nota: 9.0
+A média das notas é: 8.50
+``
+
+## Prints de execução:
+
