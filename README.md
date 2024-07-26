@@ -1,5 +1,5 @@
 # Desafio Python
-Este repositório contém diversos scripts Python que demonstram operações básicas de manipulação de strings, cálculos matemáticos, e verificação de características de palavras. Abaixo está a descrição de cada script incluído neste repositório.
+Este repositório contém diversos scripts Python que demonstram operações básicas de manipulação de strings, cálculos matemáticos, e verificação de características de palavras. Abaixo está a descrição de cada script incluído neste repositório. Todos os códigos foram refatorados seguindo as diretrizes de estilo de código PEP8 para garantir clareza, legibilidade e manutenção.
 
 ## Scripts
 
@@ -119,9 +119,9 @@ A média das notas é: 8.50
 
 ## Prints de execução:
 
-![Python-Challenge-Concatenar](https://github.com/user-attachments/assets/ddd93ce3-08b1-478c-8f3d-9aff1d4e9e91)
-![Python-Challenge-Repetir](https://github.com/user-attachments/assets/7cd90e1b-4c02-4873-a074-e45eadd482f9)
-![Python-Challenge-Calcular](https://github.com/user-attachments/assets/272140d5-b956-4026-9995-599d525ca2cc)
-![Python-Challenge-Verificar](https://github.com/user-attachments/assets/e6333d76-d341-4b1a-98d7-10913edce57f)
-![Python-Challenge-Media](https://github.com/user-attachments/assets/af23f98b-9ae4-4a78-a56d-66474ac55fdc)
-![Python-Challenge-Palindromo](https://github.com/user-attachments/assets/384a1738-6521-4e5f-8a6c-1881967b3c87)
+![repeat_text](https://github.com/user-attachments/assets/d86a8c37-7bc9-4fa7-add7-0c2a572409cc)
+![simple_calculus](https://github.com/user-attachments/assets/187f24c4-f2db-4df3-a86e-bc4d6b0bf1cf)
+![concatenar_inputs](https://github.com/user-attachments/assets/c0af977b-93ff-4b48-a289-43195a245985)
+![verify_numbers](https://github.com/user-attachments/assets/79ecd459-34f3-4fd8-a090-325df741c521)
+![palindromo](https://github.com/user-attachments/assets/0088f81e-ecfa-4290-a19e-84ef3866d6ff)
+![mean_grades](https://github.com/user-attachments/assets/e424e393-25a2-4efd-863f-16cd5f5e2d64)
