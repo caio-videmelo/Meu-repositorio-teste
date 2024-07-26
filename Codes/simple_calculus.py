@@ -1,27 +1,42 @@
-# Vamos solicitar como entrada dois números e depois vamos realizar uma operação simples entre eles.
-num1 = int(input("Digite um número inteiro: "))
-num2 = int(input("Digite um número inteiro: "))
+def perform_operation(num1, num2, operation):
+    """
+    Perform a simple arithmetic operation between two numbers.
+    
+    Parameters:
+    num1 (int): The first number.
+    num2 (int): The second number.
+    operation (str): The operation to perform ('+', '-', '*', '/').
 
-# Vamos solicitar ao usuário que escolha a operação a ser realizada:
-operacao = input("Digite a operação que deseja realizar (+, -, *, /): ")
-
-# Inicializamos a variável resultado
-resultado = None
-
-# Operações com os números inseridos pelo usuário:
-if operacao == '+':
-    resultado = num1 + num2
-elif operacao == '-':
-    resultado = abs(num1 - num2)
-elif operacao == '*':
-    resultado = num1 * num2
-elif operacao == '/':
-    if num2 != 0:  # Verificamos se o divisor não é zero
-        resultado = num1 / num2
+    Returns:
+    result: The result of the operation, or a string indicating an invalid operation or division by zero.
+    """
+    if operation == '+':
+        return num1 + num2
+    elif operation == '-':
+        return abs(num1 - num2)
+    elif operation == '*':
+        return num1 * num2
+    elif operation == '/':
+        return num1 / num2 if num2 != 0 else "Indefinido (divisão por zero)"
     else:
-        resultado = "Indefinido (divisão por zero)"
-else:
-    resultado = "Operação inválida"
+        return "Operação inválida"
 
-# Apresentar os resultados:
-print("O resultado da operação é: ", resultado)
+def main():
+    """
+    Main function to execute the arithmetic operations.
+    """
+    # Request input from the user
+    num1 = int(input("Digite um número inteiro: "))
+    num2 = int(input("Digite um número inteiro: "))
+
+    # Request the operation from the user
+    operation = input("Digite a operação que deseja realizar (+, -, *, /): ")
+
+    # Perform the operation and store the result
+    result = perform_operation(num1, num2, operation)
+
+    # Display the result
+    print("O resultado da operação é:", result)
+
+if __name__ == "__main__":
+    main()
