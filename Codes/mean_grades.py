@@ -1,11 +1,17 @@
-# Agora vamos calcular a média de três notas fornecidas na entrada do usuário. Uma dica é: Utilize operadores aritméticos para realizar o cálculo da média.
-# Solicita as notas ao usuário
-nota1 = float(input("Digite a primeira nota: "))
-nota2 = float(input("Digite a segunda nota: "))
-nota3 = float(input("Digite a terceira nota: "))
+def calculate_mean_grade():
+    """
+    This function calculates the mean of three grades provided by the user.
+    """
+    # Request grades from the user
+    grade1 = float(input("Digite a primeira nota: "))
+    grade2 = float(input("Digite a segunda nota: "))
+    grade3 = float(input("Digite a terceira nota: "))
 
-# Calcula a média
-media = (nota1 + nota2 + nota3) / 3
+    # Calculate the mean
+    mean_grade = (grade1 + grade2 + grade3) / 3
 
-# Exibe o resultado
-print(f"A média das notas é: {media:.2f}")
+    # Display the result
+    print(f"A média das notas é: {mean_grade:.2f}")
+
+if __name__ == "__main__":
+    calculate_mean_grade()
