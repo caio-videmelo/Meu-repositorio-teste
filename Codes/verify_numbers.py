@@ -1,12 +1,28 @@
-# Como entrada, receba um número inteiro e verifique se ele é par ou ímpar. Uma dica é: Utilize condicionais para realizar a verificação e, se possível, faça uso do Github Copilot(ou outra IA) para otimizar a estrutura do código.
-# Solicitar ao usuário que insira um número inteiro
-num = int(input("Digite um número inteiro: "))
+def check_even_odd(number):
+    """
+    Check if a number is even or odd.
+    
+    Parameters:
+    number (int): The number to check.
 
-# Verificar se o número é par ou ímpar usando um valor booleano
-is_even = (num % 2 == 0)
+    Returns:
+    str: A message indicating whether the number is even or odd.
+    """
+    if number % 2 == 0:
+        return f"O número {number} é par."
+    else:
+        return f"O número {number} é ímpar."
 
-# Apresentar o resultado
-if is_even:
-    print(f"O número {num} é par.")
-else:
-    print(f"O número {num} é ímpar.")
+def main():
+    """
+    Main function to execute the even or odd check.
+    """
+    # Request input from the user
+    num = int(input("Digite um número inteiro: "))
+
+    # Check if the number is even or odd and display the result
+    result = check_even_odd(num)
+    print(result)
+
+if __name__ == "__main__":
+    main()
